@@ -1,0 +1,45 @@
+.setup-form {
+    display: grid;
+    gap: 2rem;
+}
+
+.form-control label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: darkblue;
+}
+
+.form-control input, .form-control select {
+    width: 100%;
+    padding: 0.1rem 0.5rem;
+    border-radius: 0.2rem;
+    outline: none;
+    border: 2px solid transparent;
+    background-color: #f1f5f8;
+}
+
+.form-control input:active,
+.form-control input:focus, 
+.form-control select:active, 
+.form-control select:focus {
+    border: 2px solid darkblue;
+}
+
+.setup-form button {
+    border: none;
+    padding: 0.5rem;
+    background-color: orange;
+    border-radius: 0.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.setup-form button:hover {
+    background-color: orangered;
+}
+
+.error {
+    color:red;
+}
